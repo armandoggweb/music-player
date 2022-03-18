@@ -1,0 +1,21 @@
+@import "./normalize.css";
+
+:root {
+  --background-base: #000101;
+  --text-based: #fff;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-based);
+}
+
+li{
+  list-style: none;
+}
