@@ -5,7 +5,8 @@
   --text-based: #fff;
 }
 
-*{
+* {
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -16,6 +17,6 @@ a {
   color: var(--text-based);
 }
 
-li{
+li {
   list-style: none;
 }
