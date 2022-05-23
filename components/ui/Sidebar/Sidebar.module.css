@@ -1,7 +1,0 @@
-.root {
-  background-color: var(--background-base);
-  color: var(--text-based);
-  min-height: 100vh;
-  width: 30vw;
-  padding: 2em;
-}

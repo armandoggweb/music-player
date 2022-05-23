@@ -1,0 +1,26 @@
+.common {
+    margin-right: 15px;
+}
+
+.root {
+    composes: common;
+    fill: currentColor;
+}
+
+.buttons {
+    composes: common;
+    padding: 5px;
+    height: 24px;
+    width: 24px;
+}
+
+.likedSongs {
+    composes: buttons;
+    fill: var(--text-based);
+    background: linear-gradient(135deg, #450af5, #c4efd9);
+}
+
+.createPlaylist {
+    composes: buttons;
+    background: var(--text-based);
+}
