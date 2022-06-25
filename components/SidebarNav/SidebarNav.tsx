@@ -1,12 +1,10 @@
 import Link from 'next/link';
 import Logo from '../Logo';
-import {
-  CreatePlaylist,
-  Home,
-  LikedSongs,
-  Search,
-  YourLibrary,
-} from '../Icons';
+import Home from '../Icons/Home';
+import Search from '../Icons/Search';
+import YourLibrary from '../Icons/YourLibrary';
+import CreatePlaylist from '../Icons/CreatePlaylist';
+import LikedSongs from '../Icons/LikedSongs';
 import s from './SidebarNav.module.css';
 
 type MenuOptions = {
@@ -15,9 +13,9 @@ type MenuOptions = {
   icon?: React.ReactNode;
 };
 const menuOptions = [
-  { name: 'Home', href: '#', icon: <Home /> },
-  { name: 'Search', href: '#', icon: <Search /> },
-  { name: 'Your Library', href: '#', icon: <YourLibrary /> },
+  { name: 'Home', href: '#', icon: <Home filled={true} /> },
+  { name: 'Search', href: '#', icon: <Search filled={true} /> },
+  { name: 'Your Library', href: '#', icon: <YourLibrary filled={true} /> },
 ];
 
 const buttonsOptions = [
